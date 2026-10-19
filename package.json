@@ -1,0 +1,35 @@
+{
+  "name": "prompt-eval-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Save prompts, attach test cases, run them against different LLMs and compare versions on accuracy, latency and cost.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.135.0",
+    "@electric-sql/pglite": "0.3.15",
+    "next": "15.5.4",
+    "pg": "8.16.3",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.36.0",
+    "@types/node": "22.18.6",
+    "@types/pg": "8.15.5",
+    "@types/react": "19.1.13",
+    "@types/react-dom": "19.1.9",
+    "eslint": "9.36.0",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2",
+    "typescript-eslint": "8.44.1",
+    "vitest": "3.2.4"
+  }
+}
